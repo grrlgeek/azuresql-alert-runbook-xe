@@ -14,11 +14,11 @@ Note: You could create and start the Extended Events session and leave it runnin
 
 ## SQL Managed Instance setup 
 
-Create login and user in SQL MI master database for the Automation managed identity using the script [“SQL perms for Auto Runbook with XE.sql”.](./SQL%20perms%20for%20Auto%20Runbook%20with%20XE.sql)
+Create login and user in SQL MI master database for the Automation managed identity using the script [SQL perms for Auto Runbook with XE.sql.](./SQL%20perms%20for%20Auto%20Runbook%20with%20XE.sql)
 
 ## Automation Runbook setup 
 
-Create Runbook using the [script "Automation Runbook call XE.ps1".](./Automation%20Runbook%20call%20XE.ps1) The first section passes the automation account’s managed identity token to authenticate to the MI. The second section creates a connection and runs a T-SQL command. 
+Create Runbook using the script [Automation Runbook call XE.ps1.](./Automation%20Runbook%20call%20XE.ps1) The first section passes the automation account’s managed identity token to authenticate to the MI. The second section creates a connection and runs a T-SQL command. 
 
 ## Alert setup
 Set up the Alert using the Azure portal. Go to SQL MI > Monitoring > Alerts. 
