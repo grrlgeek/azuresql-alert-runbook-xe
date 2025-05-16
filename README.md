@@ -14,7 +14,7 @@ Note: You could create and start the Extended Events session and leave it runnin
 
 ## SQL Managed Instance setup 
 
-Create login and user in SQL MI master database for the Automation managed identity using the [script “SQL perms for Auto Runbook with XE.sql”.](SQL perms for Auto Runbook with XE.sql)
+Create login and user in SQL MI master database for the Automation managed identity using the [script “SQL perms for Auto Runbook with XE.sql”.](/SQL perms for Auto Runbook with XE.sql)
 
 ## Automation Runbook setup 
 
