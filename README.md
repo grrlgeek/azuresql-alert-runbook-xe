@@ -25,7 +25,7 @@ Set up the Alert using the Azure portal. Go to SQL MI > Monitoring > Alerts.
 - + Create Alert Rule. 
     - Scope – can be subscription, resource group, or MI. Select your MI. 
 
-![Create an alert rule - Scope](/images/Create-an-alert-rule-scope.png)
+![Create an alert rule - Scope](/Images/Create-an-alert-rule-scope.png)
 
 - Condition 
     - Signal Name – Average CPU percent 
@@ -36,7 +36,7 @@ Set up the Alert using the Azure portal. Go to SQL MI > Monitoring > Alerts.
     - Check every – 1 minute 
     - Lookback period – 5 minutes 
  
-(/images/Create-an-alert-rule-condition.png)
+![Create an alert rule - Condition](/Images/Create-an-alert-rule-condition.png)
 
 - Actions 
     - Select Actions – Use action groups 
@@ -48,14 +48,14 @@ Set up the Alert using the Azure portal. Go to SQL MI > Monitoring > Alerts.
                 - Region – Global 
                 - Action group name – enter name 
                 - Display name – enter display name 
-(/images/Create-action-group-Basics.png)
+![Create action group - Basics](/Images/Create-action-group-Basics.png)
 
             - Notifications (Optional) 
                 - Notification type – Email/SMS…
                 - Name – enter name 
                 - Check Email 
                 - Enter email address(es) – group to send notification of this alert being triggered to 
-(/images/Create-action-group-Notifications.png)
+![Create action group - Notifications](/Images/Create-action-group-Notifications.png)
 
             - Actions 
                 - Action type – Automation runbook 
@@ -66,7 +66,7 @@ Set up the Alert using the Azure portal. Go to SQL MI > Monitoring > Alerts.
                 - Automation account – the automation account you have runbook in 
                 - Runbook – the runbook you created 
                 - Parameters – configure Instance and Database
-(/images/Create-action-group-Actions.png)
+![Create action group - Actions](/Images/Create-action-group-Actions.png)
 
 - Review and Create 
 
@@ -79,7 +79,7 @@ Set up the Alert using the Azure portal. Go to SQL MI > Monitoring > Alerts.
 	- Alert rule name – name 
 	- Alert rule description – description 
 
-(/images/Create-an-alert-rule-Details.png)
+![Create an alert rule - Details](/Images/Create-an-alert-rule-Details.png)
 
 - Review and Create 
 
