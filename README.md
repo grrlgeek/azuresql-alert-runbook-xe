@@ -25,7 +25,7 @@ Set up the Alert using the Azure portal. Go to SQL MI > Monitoring > Alerts.
 - + Create Alert Rule. 
     - Scope – can be subscription, resource group, or MI. Select your MI. 
 
-(/images/Create-an-alert-rule-scope.png)
+![Create an alert rule - Scope](/images/Create-an-alert-rule-scope.png)
 
 - Condition 
     - Signal Name – Average CPU percent 
